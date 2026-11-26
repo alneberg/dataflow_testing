@@ -33,4 +33,5 @@ server_status:
 reports_path: /app/reports
 lims_backend_credential_location: /app/run_dir/lims_backend_cred.yaml
 order_portal_credential_location: /app/run_dir/orderportal_cred.yaml
-font_awesome_url: https://use.fontawesome.com/releases/v5.15.4/css/all.css
+# base.html loads this with a <script> tag, so it must be the JavaScript build
+font_awesome_url: https://use.fontawesome.com/releases/v5.15.4/js/all.js
